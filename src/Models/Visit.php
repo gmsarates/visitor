@@ -11,6 +11,9 @@ class Visit extends Model
         if (!isset($this->table)) {
             $this->setTable(config('visitor.table_name'));
         }
+
+        $this->connection = config('visitor.connection');
+
         parent::__construct($attributes);
     }
     /**

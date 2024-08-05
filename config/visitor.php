@@ -18,6 +18,9 @@ return [
     //name of the table which visit records should save in
     'table_name' =>  'shetabit_visits',
 
+    //db connection
+    'connection' => 'mysql',
+
     /*
     |--------------------------------------------------------------------------
     | List of Drivers
